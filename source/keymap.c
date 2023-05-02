@@ -99,9 +99,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case MT(MOD_LGUI, KC_SPACE):
-            return g_tapping_term + 243;
+            return g_tapping_term + 200;
         case MT(MOD_RGUI, KC_SPACE):
-            return g_tapping_term + 243;
+            return g_tapping_term + 200;
         default:
             return g_tapping_term;
     }
